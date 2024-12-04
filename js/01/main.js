@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 fs.readFile(__dirname + "/input.txt", "utf-8", solve);
 
 function solve(err, data) {
