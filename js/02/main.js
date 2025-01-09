@@ -27,4 +27,8 @@ function calcDiffs(arr) {
  * - Ans 1: 230
  * - Ans 2?: 300 < answer < 356
  * - 344 is wrong
+ *
+ * Part 2:
+ * - Account for the first element being bad
+ * - Violator index: If single violator in each filter function, violators should have same index
  */
