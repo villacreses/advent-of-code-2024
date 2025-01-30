@@ -10,9 +10,7 @@ async function solve() {
     .map((str) => str.split("\n"));
 
   const rules = rulesRaw.map((line) => line.split("|"));
-
   const updates = updatesRaw.map((line) => line.split(",").map(Number));
-
   const adj = rules.reduce(
     (acc, [r, c]) => ({ ...acc, [r]: (acc[r] || []).concat(c) }),
     {},
